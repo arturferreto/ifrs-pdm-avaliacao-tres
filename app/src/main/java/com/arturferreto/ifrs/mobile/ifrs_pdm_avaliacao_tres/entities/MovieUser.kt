@@ -1,7 +1,6 @@
 package com.arturferreto.ifrs.mobile.ifrs_pdm_avaliacao_tres.entities
 
 import androidx.room.Entity
-import androidx.room.PrimaryKey
 
 @Entity(tableName = "movie_user", primaryKeys = ["userId", "movieId"])
 data class MovieUser(

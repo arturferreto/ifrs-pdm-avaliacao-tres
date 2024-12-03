@@ -11,65 +11,63 @@
         android:orientation="vertical"
         android:gravity="center">
 
-        <!-- Campo para Nome de Usuário -->
         <EditText
             android:id="@+id/usernameEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nome de Usuário"
+            android:autofillHints="Nome de Usuário"
+            android:hint="@string/username"
             android:inputType="text"
             android:padding="12dp"
             android:background="@android:drawable/editbox_background"
             android:layout_marginBottom="16dp" />
 
-        <!-- Campo para Email -->
         <EditText
             android:id="@+id/emailEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email"
+            android:autofillHints="Email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:padding="12dp"
             android:background="@android:drawable/editbox_background"
             android:layout_marginBottom="16dp" />
 
-        <!-- Campo para Senha -->
         <EditText
             android:id="@+id/passwordEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Senha"
+            android:autofillHints="Senha"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:padding="12dp"
             android:background="@android:drawable/editbox_background"
             android:layout_marginBottom="16dp" />
 
-        <!-- Campo para Nome -->
         <EditText
             android:id="@+id/nameEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nome Completo"
+            android:autofillHints="Nome Completo"
+            android:hint="@string/name"
             android:inputType="text"
             android:padding="12dp"
             android:background="@android:drawable/editbox_background"
             android:layout_marginBottom="24dp" />
 
-        <!-- Botão para Registrar -->
         <Button
             android:id="@+id/registerButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cadastrar"
+            android:text="@string/save"
             android:textColor="@android:color/white"
             android:layout_marginBottom="16dp" />
 
-        <!-- Voltar para o Login -->
         <Button
             android:id="@+id/backToLoginButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Voltar para Login"
+            android:text="@string/back_to_login"
             android:backgroundTint="@android:color/darker_gray"
             android:textColor="@android:color/white" />
 

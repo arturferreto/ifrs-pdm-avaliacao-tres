@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ifrs-pdm-avaliacao-tres</string>
+    <string name="username">Nome de Usuário</string>
+    <string name="password">Senha</string>
+    <string name="login">Entrar</string>
+    <string name="singup">Cadastrar-se</string>
+    <string name="email">Email</string>
+    <string name="name">Nome Completo</string>
+    <string name="save">Cadastrar</string>
+    <string name="back_to_login">Voltar para Login</string>
 </resources>

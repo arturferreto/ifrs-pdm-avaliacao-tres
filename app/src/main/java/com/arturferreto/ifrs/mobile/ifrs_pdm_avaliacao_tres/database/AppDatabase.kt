@@ -16,7 +16,7 @@ import com.arturferreto.ifrs.mobile.ifrs_pdm_avaliacao_tres.entities.User
 
 @Database(
     entities = [User::class, Movie::class, MovieUser::class, Genre::class, GenreMovie::class],
-    version = 1,
+    version = 6,
     exportSchema = true
 )
 abstract class AppDatabase : RoomDatabase() {
