@@ -1,10 +1,11 @@
-package com.arturferreto.ifrs.mobile.ifrs_pdm_avaliacao_tres
+package com.arturferreto.ifrs.mobile.ifrs_pdm_avaliacao_tres.activities
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.arturferreto.ifrs.mobile.ifrs_pdm_avaliacao_tres.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
