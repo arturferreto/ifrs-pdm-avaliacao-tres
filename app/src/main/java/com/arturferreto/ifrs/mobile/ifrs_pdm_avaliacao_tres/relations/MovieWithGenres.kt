@@ -11,8 +11,12 @@ data class MovieWithGenres(
     @Embedded val movie: Movie,
     @Relation(
         parentColumn = "id",
-        entityColumn = "movieId",
-        associateBy = Junction(GenreMovie::class)
+        entityColumn = "id",
+        associateBy = Junction(
+            value = GenreMovie::class,
+            parentColumn = "movieId",
+            entityColumn = "genreId"
+        )
     )
-    val genres: List<Genre>
+    val genres: List<Genre> = emptyList()
 )
