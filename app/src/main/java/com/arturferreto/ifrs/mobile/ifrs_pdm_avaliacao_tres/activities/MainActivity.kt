@@ -19,5 +19,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, GenreActivity::class.java)
             startActivity(intent)
         }
+
+        val buttonMovie = findViewById<Button>(R.id.buttonGoToMovie)
+        buttonMovie.setOnClickListener {
+            val intent = Intent(this, MovieActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

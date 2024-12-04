@@ -11,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ifrspdmavaliacaotres">
         <activity
+            android:name=".activities.MovieEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MovieActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.GenreEditActivity"
             android:exported="false" />
         <activity

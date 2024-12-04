@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTitleMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="Título do Filme"
+        android:hint="@string/movie_title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextDescriptionMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="Descrição do Filme"
+        android:hint="@string/movie_description"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextYearMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="Ano do Filme"
+        android:hint="@string/movie_year"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonAddMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/movie_store" />
+
+    <ListView
+        android:id="@+id/listViewMovies"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

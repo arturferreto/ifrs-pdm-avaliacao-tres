@@ -13,4 +13,11 @@
     <string name="genre_update">Atualizar</string>
     <string name="genre_delete">Deletar</string>
     <string name="genre_list">Listagem de Gêneros</string>
+    <string name="movie_delete">Deletar Filme</string>
+    <string name="movie_update">Atualizar Filme</string>
+    <string name="movie_title">Título do Filme</string>
+    <string name="movie_description">Descrição do Filme</string>
+    <string name="movie_year">Ano do Filme</string>
+    <string name="movie_store">Cadastrar Filme</string>
+    <string name="movie_list">Listagem de Filmes</string>
 </resources>
