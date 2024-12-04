@@ -35,7 +35,7 @@ class GenreEditActivity : AppCompatActivity() {
 
         genreDao = database.genreDao()
 
-        genreId = intent.getIntExtra("GENRE_ID", 0)
+        genreId = intent.getIntExtra("ENTITY_ID", 0)
 
         buttonDeleteGenre = findViewById(R.id.buttonDeleteGenre)
         buttonUpdateGenre = findViewById(R.id.buttonUpdateGenre)

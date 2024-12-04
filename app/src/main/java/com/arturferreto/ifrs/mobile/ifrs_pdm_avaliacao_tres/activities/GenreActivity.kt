@@ -56,7 +56,7 @@ class GenreActivity : AppCompatActivity() {
             GlobalScope.launch(Dispatchers.IO) {
                 val selectedGenre = genreDao.getAll()[position]
                 val i = Intent(this@GenreActivity, GenreEditActivity::class.java)
-                i.putExtra("GENRE_ID", selectedGenre.id)
+                i.putExtra("ENTITY_ID", selectedGenre.id)
                 startActivity(i)
             }
         }
@@ -65,12 +65,12 @@ class GenreActivity : AppCompatActivity() {
     @OptIn(DelicateCoroutinesApi::class)
     private fun loadGenres() {
         GlobalScope.launch(Dispatchers.IO) {
-            val categories = genreDao.getAll()
+            val genres = genreDao.getAll()
             runOnUiThread {
                 val adapter = ArrayAdapter(
                     this@GenreActivity,
                     android.R.layout.simple_list_item_1,
-                    categories.map { it.name }
+                    genres.map { it.name }
                 )
                 listViewGenres.adapter = adapter
             }
