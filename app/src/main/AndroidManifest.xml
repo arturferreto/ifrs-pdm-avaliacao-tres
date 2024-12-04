@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ifrspdmavaliacaotres">
         <activity
+            android:name=".activities.GenreEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.GenreActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.RegisterActivity"
             android:exported="false" />
         <activity
