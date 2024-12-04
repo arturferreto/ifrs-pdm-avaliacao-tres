@@ -9,7 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="Nome do Gênero"
+        android:autofillHints="Nome do Gênero"
+        android:hint="@string/genre_name"
         android:inputType="text" />
 
     <Button
@@ -17,13 +18,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Atualizar" />
+        android:text="@string/genre_update" />
 
     <Button
         android:id="@+id/buttonDeleteGenre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Deletar" />
+        android:text="@string/genre_delete" />
 
 </LinearLayout>

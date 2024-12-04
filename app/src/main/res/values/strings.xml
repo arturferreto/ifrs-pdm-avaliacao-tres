@@ -8,4 +8,9 @@
     <string name="name">Nome Completo</string>
     <string name="save">Cadastrar</string>
     <string name="back_to_login">Voltar para Login</string>
+    <string name="genre_name">Nome do Fornecedor</string>
+    <string name="genre_store">Adicionar Fornecedor</string>
+    <string name="genre_update">Atualizar</string>
+    <string name="genre_delete">Deletar</string>
+    <string name="genre_list">Listagem de Gêneros</string>
 </resources>

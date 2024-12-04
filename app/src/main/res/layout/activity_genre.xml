@@ -9,7 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="Nome do Fornecedor"
+        android:autofillHints="Nome do Fornecedor"
+        android:hint="@string/genre_name"
         android:inputType="text" />
 
     <Button
@@ -17,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Adicionar Fornecedor" />
+        android:text="@string/genre_store" />
 
     <ListView
         android:id="@+id/listViewGenres"
