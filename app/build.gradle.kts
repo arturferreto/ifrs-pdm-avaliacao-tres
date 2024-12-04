@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.arturferreto.ifrs.mobile.ifrs_pdm_avaliacao_tres"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.arturferreto.ifrs.mobile.ifrs_pdm_avaliacao_tres"
-        minSdk = 34
-        targetSdk = 34
+        minSdk = 35
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
